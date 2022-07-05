@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name='pip_library',
+    name='piplibrary',
     version='0.0.3',
     author='Mike Huls',
     author_email='leoyang158@gmail.com',
@@ -15,6 +15,6 @@ setuptools.setup(
     project_urls = {
     },
     license='MIT',
-    packages=['pip_library'],
+    packages=['piplibrary'],
     install_requires=['requests'],
 )
